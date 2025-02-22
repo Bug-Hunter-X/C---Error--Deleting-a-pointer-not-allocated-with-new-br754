@@ -1,0 +1,3 @@
+# C++ Error: Deleting a pointer not allocated with new
+This repository demonstrates a common error in C++: attempting to delete a pointer that was not allocated using the `new` operator. This can lead to undefined behavior and program crashes.
+The `bug.cpp` file contains the erroneous code. The `bugSolution.cpp` file provides the corrected version.  The bug is that the program attempts to use delete on a pointer allocated on the stack, which causes undefined behavior.
